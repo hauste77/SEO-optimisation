@@ -94,6 +94,10 @@ ul {
     right: 0;
 }
 
+.img-responsive.portfolio-thumb {
+    width: -webkit-fill-available;
+}
+
 .texture-paper::before {
     background: url("img/texture-paper.png");
 }
