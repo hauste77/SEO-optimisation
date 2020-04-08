@@ -99,7 +99,7 @@ ul {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
 }
 
 .b-parallax {
