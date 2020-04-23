@@ -31,6 +31,16 @@ a:hover {
     color: #424242;
 }
 
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.adresse {
+    width: 33%;
+}
+
 ul {
     font-size: 2rem;
 }
@@ -53,7 +63,7 @@ ul {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 143px 50px;
 }
 
 .bloc-md {
@@ -901,6 +911,13 @@ h4 {
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
     }
+    .flex {
+        flex-direction: column;
+    }
+    .adresse {
+        width: auto;
+        padding-top: 50px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -992,7 +1009,7 @@ h4 {
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
-        padding: 40px 0;
+        padding: 143px 0;
     }
     .bloc-sm,
     .bloc-md {
