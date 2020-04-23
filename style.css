@@ -491,6 +491,10 @@ button {
     color: #424242 !important;
 }
 
+.icon-md:hover {
+    color: #ffffff !important;
+}
+
 .icon-lg {
     font-size: 60px!important;
 }
@@ -713,6 +717,10 @@ p {
 
 .social {
     margin: 20px 0px;
+}
+
+.social:hover {
+    color: #dddada !important;
 }
 
 h2 {
