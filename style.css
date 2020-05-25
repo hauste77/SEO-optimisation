@@ -16,6 +16,11 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    color: white !important;
+}
+
+.navbar a:hover {
+    color: gray !important;
 }
 
 #page-loading-blocs-notifaction {
